@@ -1,0 +1,6 @@
+target = input()
+target = list(target)
+saal = "".join(target[:2])
+maah = "".join(target[2:])
+print('saal:' + saal)
+print('maah:' + maah)
